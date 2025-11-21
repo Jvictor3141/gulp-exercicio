@@ -1,0 +1,5 @@
+@use 'sass:color';
+
+$corPrincipal: #7adaf7;
+$corBotao: #3498db;
+$corBotaoHover: color.adjust($corBotao, $lightness: -8%);
